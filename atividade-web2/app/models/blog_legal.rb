@@ -1,0 +1,2 @@
+class BlogLegal < ApplicationRecord
+end

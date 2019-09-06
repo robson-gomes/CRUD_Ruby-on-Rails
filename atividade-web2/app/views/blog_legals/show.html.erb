@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @blog_legal.titulo %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @blog_legal.text %>
+</p>
+
+<%= link_to 'Edit', edit_blog_legal_path(@blog_legal) %> |
+<%= link_to 'Back', blog_legals_path %>
